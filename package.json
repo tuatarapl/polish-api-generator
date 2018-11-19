@@ -1,0 +1,67 @@
+{
+  "name": "polish-api-generator",
+  "version": "1.0.0",
+  "description": "Generator of sample data for Polish API",
+  "main": "src",
+  "scripts": {
+    "test": "nyc mocha test/**/*.{ts,tsx}",
+    "build": "rm -rf target && tsc",
+    "format": "tslint 'src/**/*.ts' --fix",
+    "lint": "tslint 'src/**/*.ts'"
+  },
+  "nyc": {
+    "all": true,
+    "extension": [
+      ".ts",
+      ".tsx"
+    ],
+    "exclude": [
+      "**/*.d.ts"
+    ],
+    "include": [
+      "src/**/*"
+    ],
+    "reporter": [
+      "html",
+      "text"
+    ],
+    "require": [
+      "ts-node/register",
+      "source-map-support/register"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/tuatarapl/polish-api-generator.git"
+  },
+  "keywords": [
+    "generator",
+    "typescript",
+    "polish-api",
+    "psd2"
+  ],
+  "author": "Grzegorz Abramczyk <grzegorz.abramczyk@tuatara.pl>",
+  "license": "UNLICENSED",
+  "homepage": "https://bitbucket.org/tuatarapl/polish-api-generator#readme",
+  "devDependencies": {
+    "@types/js-yaml": "^3.11.2",
+    "@types/lodash": "^4.14.118",
+    "@types/uuid": "^3.4.4",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.12.9",
+    "chai": "^4.2.0",
+    "js-yaml": "^3.12.0",
+    "lodash": "^4.17.11",
+    "mocha": "^5.2.0",
+    "moment": "^2.22.2",
+    "nyc": "^13.1.0",
+    "polish-api-model": "git+ssh://git@bitbucket.org/tuatarapl/polish-api-model.git",
+    "uuid": "^3.3.2"
+  }
+}
