@@ -1,7 +1,7 @@
 {
   "name": "polish-api-generator",
   "version": "1.0.0",
-  "description": "Generator of sample data for Polish API",
+  "description": "Generator of sample data in Polish API model",
   "types": "src",
   "main": "target",
   "scripts": {
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/tuatarapl/polish-api-generator.git"
+    "url": "git+ssh://git@github.com:tuatarapl/polish-api-generator.git"
   },
   "keywords": [
     "generator",
@@ -43,8 +43,8 @@
     "psd2"
   ],
   "author": "Grzegorz Abramczyk <grzegorz.abramczyk@tuatara.pl>",
-  "license": "UNLICENSED",
-  "homepage": "https://bitbucket.org/tuatarapl/polish-api-generator#readme",
+  "license": "MIT",
+  "homepage": "https://github.com/tuatarapl/polish-api-generator#readme",
   "devDependencies": {
     "@types/js-yaml": "^3.11.2",
     "@types/lodash": "^4.14.118",
@@ -63,7 +63,7 @@
     "mocha": "^5.2.0",
     "moment": "^2.22.2",
     "nyc": "^13.1.0",
-    "polish-api-model": "git+ssh://git@bitbucket.org/tuatarapl/polish-api-model.git",
+    "polish-api-model": "git+ssh://git@github.com:tuatarapl/polish-api-model.git",
     "uuid": "^3.3.2"
   }
 }
