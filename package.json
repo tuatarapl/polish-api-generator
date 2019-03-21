@@ -62,7 +62,7 @@
     "lodash": "^4.17.11",
     "mocha": "^5.2.0",
     "moment": "^2.22.2",
-    "nyc": "^13.1.0",
+    "nyc": "^13.3.0",
     "polish-api-model": "git://github.com:tuatarapl/polish-api-model.git",
     "uuid": "^3.3.2"
   }
