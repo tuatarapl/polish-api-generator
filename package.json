@@ -60,7 +60,7 @@
     "@types/node": "^10.17.18",
     "chai": "^4.2.0",
     "js-yaml": "^3.13.1",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "moment": "^2.24.0",
     "nyc": "^15.0.1",
     "polish-api-model": "git://github.com/tuatarapl/polish-api-model.git",
