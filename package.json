@@ -61,7 +61,7 @@
     "chai": "^4.2.0",
     "js-yaml": "^3.13.1",
     "lodash": "^4.17.21",
-    "moment": "^2.29.2",
+    "moment": "^2.29.4",
     "nyc": "^15.0.1",
     "polish-api-model": "git://github.com/tuatarapl/polish-api-model.git",
     "uuid": "^3.4.0"
